@@ -5,8 +5,11 @@
 
 Problem Statement
 Expensive Healthy Meal
+
 Eating healthy in Central Business District (CBD) is expensive and the average price of the healthy meal is $10 which might be not sustainable for frugal worker.
+
 Lack calorie information for economic choice
+
 Economic rice also known as Cai Fan is the wallet-friendly option for frugal workers to have their meal in CBD but there is lack of calorie information to make healthy choice.
 
  
