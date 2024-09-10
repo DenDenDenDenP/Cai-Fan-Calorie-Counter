@@ -1,6 +1,5 @@
 pathlib
 pillow
 ultralytics
-opencv-python
+opencv-python-headless
 yt_dlp
-libgl1-mesa-glx
