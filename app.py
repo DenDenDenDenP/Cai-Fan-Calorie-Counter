@@ -53,7 +53,7 @@ if source_radio == settings.IMAGE:
                          use_column_width=True)
             else:
                 uploaded_image = PIL.Image.open(source_img)
-                st.image(source_img, caption="Sample Uploaded Image",
+                st.image(source_img, caption="Uploaded Image",
                          use_column_width=True)
         except Exception as ex:
             st.error("Error occurred while opening the image.")
