@@ -3,4 +3,4 @@ pillow
 ultralytics
 opencv-python
 yt_dlp
-libGL.so.1
+libgl1-mesa-glx
