@@ -49,11 +49,11 @@ if source_radio == settings.IMAGE:
             if source_img is None:
                 default_image_path = str(settings.DEFAULT_IMAGE)
                 default_image = PIL.Image.open(default_image_path)
-                st.image(default_image_path, caption="Default Image",
+                st.image(default_image_path, caption="Sample Default Image",
                          use_column_width=True)
             else:
                 uploaded_image = PIL.Image.open(source_img)
-                st.image(source_img, caption="Uploaded Image",
+                st.image(source_img, caption="Sample Uploaded Image",
                          use_column_width=True)
         except Exception as ex:
             st.error("Error occurred while opening the image.")
@@ -64,7 +64,7 @@ if source_radio == settings.IMAGE:
             default_detected_image_path = str(settings.DEFAULT_DETECT_IMAGE)
             default_detected_image = PIL.Image.open(
                 default_detected_image_path)
-            st.image(default_detected_image_path, caption='Detected Image',
+            st.image(default_detected_image_path, caption='Sample Detected Image',
                      use_column_width=True)
         else:
             if st.sidebar.button('Detect Objects'):
