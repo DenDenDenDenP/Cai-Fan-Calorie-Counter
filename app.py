@@ -49,7 +49,7 @@ if source_radio == settings.IMAGE:
             if source_img is None:
                 default_image_path = str(settings.DEFAULT_IMAGE)
                 default_image = PIL.Image.open(default_image_path)
-                st.image(default_image_path, caption="Sample Default Image",
+                st.image(default_image_path, caption="Sample Uploaded Image",
                          use_column_width=True)
             else:
                 uploaded_image = PIL.Image.open(source_img)
